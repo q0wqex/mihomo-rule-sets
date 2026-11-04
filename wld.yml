@@ -1,0 +1,176 @@
+# ==========================================================
+# Строгий белый список доменов (Mihomo / Clash Rule-Set)
+# Сформирован по принципу 100% консенсуса ВСЕХ 4 операторов
+# связи РФ (МегаФон, Билайн, МТС, T2) и Минцифры РФ.
+# Включает все необходимые служебные домены, CDN и API хосты.
+# ==========================================================
+payload:
+
+  # --- 1. Государственные сервисы и ведомства (включая CDN и служебные) (20) ---
+  - DOMAIN-SUFFIX,cbr.ru
+  - DOMAIN-SUFFIX,cikrf.ru
+  - DOMAIN-SUFFIX,dom.gosuslugi.ru
+  - DOMAIN-SUFFIX,gis-zkh.ru
+  - DOMAIN-SUFFIX,goskey.ru
+  - DOMAIN-SUFFIX,gosuslugi.org
+  - DOMAIN-SUFFIX,gosuslugi.ru
+  - DOMAIN-SUFFIX,gov.ru
+  - DOMAIN-SUFFIX,government.ru
+  - DOMAIN-SUFFIX,gu-st.ru
+  - DOMAIN-SUFFIX,kremlin.ru
+  - DOMAIN-SUFFIX,mchs.gov.ru
+  - DOMAIN-SUFFIX,mvd.gov.ru
+  - DOMAIN-SUFFIX,mvd.ru
+  - DOMAIN-SUFFIX,nalog.gov.ru
+  - DOMAIN-SUFFIX,nalog.ru
+  - DOMAIN-SUFFIX,pochta.ru
+  - DOMAIN-SUFFIX,post.ru
+  - DOMAIN-SUFFIX,vybory.gov.ru
+  - DOMAIN-SUFFIX,xn--c1aodkp2b9b.xn--p1ai
+
+  # --- 2. Банки и национальная платежная система (13) ---
+  - DOMAIN-SUFFIX,alfabank.link
+  - DOMAIN-SUFFIX,alfabank.ru
+  - DOMAIN-SUFFIX,alfastrakh.ru
+  - DOMAIN-SUFFIX,gazprombank.ru
+  - DOMAIN-SUFFIX,gpb.ru
+  - DOMAIN-SUFFIX,mirconnect.ru
+  - DOMAIN-SUFFIX,mirpay.ru
+  - DOMAIN-SUFFIX,nspk.ru
+  - DOMAIN-SUFFIX,privetmir.ru
+  - DOMAIN-SUFFIX,psbank.ru
+  - DOMAIN-SUFFIX,sbp.ru
+  - DOMAIN-SUFFIX,vtb.ru
+  - DOMAIN-SUFFIX,vtbe.ru
+
+  # --- 3. Экосистема Яндекса (Поиск, Карты, Go, Еда, Музыка и др.) (8) ---
+  - DOMAIN-SUFFIX,go.yandex
+  - DOMAIN-SUFFIX,kinopoisk.me
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,ya.ru
+  - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yastatic.net
+
+  # --- 4. Экосистема VK (ВКонтакте, Mail.ru, OK, RuStore, Max) (23) ---
+  - DOMAIN-SUFFIX,bk.ru
+  - DOMAIN-SUFFIX,dzen.ru
+  - DOMAIN-SUFFIX,dzeninfra.ru
+  - DOMAIN-SUFFIX,imgsmail.ru
+  - DOMAIN-SUFFIX,inbox.ru
+  - DOMAIN-SUFFIX,list.ru
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,max.im
+  - DOMAIN-SUFFIX,max.ru
+  - DOMAIN-SUFFIX,mycdn.me
+  - DOMAIN-SUFFIX,ok.me
+  - DOMAIN-SUFFIX,ok.ru
+  - DOMAIN-SUFFIX,rustore.ru
+  - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,vk-cdn.net
+  - DOMAIN-SUFFIX,vk-portal.ru
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.me
+  - DOMAIN-SUFFIX,vk.ru
+  - DOMAIN-SUFFIX,vk.site
+  - DOMAIN-SUFFIX,vkplay.ru
+  - DOMAIN-SUFFIX,vkuser-video.ru
+  - DOMAIN-SUFFIX,vkvideo.ru
+
+  # --- 5. Маркетплейсы и доски объявлений (11) ---
+  - DOMAIN-SUFFIX,avito.ru
+  - DOMAIN-SUFFIX,avito.st
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,ozoncargo.ru
+  - DOMAIN-SUFFIX,ozone.ru
+  - DOMAIN-SUFFIX,ozonusercontent.com
+  - DOMAIN-SUFFIX,wb.ru
+  - DOMAIN-SUFFIX,wbbasket.ru
+  - DOMAIN-SUFFIX,wberries.ru
+  - DOMAIN-SUFFIX,wbstatic.net
+  - DOMAIN-SUFFIX,wildberries.ru
+
+  # --- 6. Федеральный ритейл и супермаркеты (13) ---
+  - DOMAIN-SUFFIX,5ka.ru
+  - DOMAIN-SUFFIX,auchan.ru
+  - DOMAIN-SUFFIX,av.ru
+  - DOMAIN-SUFFIX,chizhik.club
+  - DOMAIN-SUFFIX,dixy.ru
+  - DOMAIN-SUFFIX,lenta.com
+  - DOMAIN-SUFFIX,magnit.com
+  - DOMAIN-SUFFIX,magnit.ru
+  - DOMAIN-SUFFIX,okeydostavka.ru
+  - DOMAIN-SUFFIX,okmarket.ru
+  - DOMAIN-SUFFIX,perekrestok.ru
+  - DOMAIN-SUFFIX,vkusvill.ru
+  - DOMAIN-SUFFIX,x5.ru
+
+  # --- 7. Транспорт, Карты, Авиа, Каршеринг и Мониторинг (16) ---
+  - DOMAIN-SUFFIX,2gis.com
+  - DOMAIN-SUFFIX,2gis.net
+  - DOMAIN-SUFFIX,2gis.ru
+  - DOMAIN-SUFFIX,belkacar.ru
+  - DOMAIN-SUFFIX,citydrive.ru
+  - DOMAIN-SUFFIX,delimobil.ru
+  - DOMAIN-SUFFIX,monitoring.plus
+  - DOMAIN-SUFFIX,rzd.ru
+  - DOMAIN-SUFFIX,rzhd.ru
+  - DOMAIN-SUFFIX,s7.ru
+  - DOMAIN-SUFFIX,s7airlines.online
+  - DOMAIN-SUFFIX,starline-online.ru
+  - DOMAIN-SUFFIX,starline.ru
+  - DOMAIN-SUFFIX,taximaxim.com
+  - DOMAIN-SUFFIX,taximaxim.ru
+  - DOMAIN-SUFFIX,tutu.ru
+
+  # --- 8. Федеральные СМИ, Информагентства и Rutube (21) ---
+  - DOMAIN-SUFFIX,gazeta.ru
+  - DOMAIN-SUFFIX,iz.ru
+  - DOMAIN-SUFFIX,kommersant.ru
+  - DOMAIN-SUFFIX,kp.cdnvideo.ru
+  - DOMAIN-SUFFIX,kp.ru
+  - DOMAIN-SUFFIX,lenta.ru
+  - DOMAIN-SUFFIX,picrutube.ru
+  - DOMAIN-SUFFIX,rambler-co.ru
+  - DOMAIN-SUFFIX,rambler.ru
+  - DOMAIN-SUFFIX,rbc.media
+  - DOMAIN-SUFFIX,rbc.ru
+  - DOMAIN-SUFFIX,rg.ru
+  - DOMAIN-SUFFIX,ria.ru
+  - DOMAIN-SUFFIX,rt.com
+  - DOMAIN-SUFFIX,rtbcdn.net
+  - DOMAIN-SUFFIX,rutube.ru
+  - DOMAIN-SUFFIX,rutubelist.ru
+  - DOMAIN-SUFFIX,tass.com
+  - DOMAIN-SUFFIX,tass.ru
+  - DOMAIN-SUFFIX,vedomosti.ru
+
+  # --- 9. Здравоохранение и мониторинг диабета (НМГ) (6) ---
+  - DOMAIN-SUFFIX,diananny.ru
+  - DOMAIN-SUFFIX,dianian.ru
+  - DOMAIN-SUFFIX,eltaltd.ru
+  - DOMAIN-SUFFIX,mamadeti.ru
+  - DOMAIN-SUFFIX,medsi.ru
+  - DOMAIN-SUFFIX,satellite-online.ru
+
+  # --- 10. Социальные сервисы, Почта, Логистика и Безопасность (9) ---
+  - DOMAIN-SUFFIX,caesar-satellite.ru
+  - DOMAIN-SUFFIX,cdek.market
+  - DOMAIN-SUFFIX,cdek.ru
+  - DOMAIN-SUFFIX,csat.ru
+  - DOMAIN-SUFFIX,dobro.ru
+  - DOMAIN-SUFFIX,hh.ru
+  - DOMAIN-SUFFIX,lizaalert.org
+  - DOMAIN-SUFFIX,lizaalert.ru
+  - DOMAIN-SUFFIX,xn--90af4abj.xn--p1ai
+
+  # --- 11. Личные кабинеты операторов связи (8) ---
+  - DOMAIN-SUFFIX,beeline.ru
+  - DOMAIN-SUFFIX,beelinedigital.ru
+  - DOMAIN-SUFFIX,megafon.ru
+  - DOMAIN-SUFFIX,megalabs.ru
+  - DOMAIN-SUFFIX,mts.cloud
+  - DOMAIN-SUFFIX,mts.ru
+  - DOMAIN-SUFFIX,t2.ru
+  - DOMAIN-SUFFIX,tele2.ru
